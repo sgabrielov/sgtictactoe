@@ -60,9 +60,7 @@ public class GameBoard implements Cloneable{
     }
     
     @Override
-    protected Object clone()
-        throws CloneNotSupportedException
-    {
+    protected Object clone() throws CloneNotSupportedException{
         return super.clone();
     }
     

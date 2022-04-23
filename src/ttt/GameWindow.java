@@ -156,7 +156,7 @@ public class GameWindow{
         
     }
     
-    private void initButtonRow(JPanel parent, GridLayout layout){
+    /*private void initButtonRow(JPanel parent, GridLayout layout){
         JPanel p = new JPanel();
         p.setLayout(layout);
         p.setSize(game_height*(button_size + button_cushion), (button_size + button_cushion));
@@ -166,7 +166,7 @@ public class GameWindow{
             initButton(p);
         }
         parent.add(p);
-    }
+    }*/
     
     private void initButton(JPanel parent){
         JButton newButton = new JButton();
@@ -199,7 +199,7 @@ public class GameWindow{
     
     private void initOptions(JPanel parent){
         
-        JLabel txt;
+        //JLabel txt;
         JButton newButton;
         
         /*textFieldsPanel = new JPanel();
